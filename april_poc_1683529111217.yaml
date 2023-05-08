@@ -1,0 +1,15 @@
+swagger: '2.0'
+info:
+  version: '1.0'
+  title: april_poc
+  x-lastModified: '08 May 2023 12:26:32 pm (India Standard Time)'
+paths:
+  /get/day:
+    post:
+      produces:
+        - application/json
+      responses:
+        '200':
+          description: Success response
+      parameters: []
+      operationId: postGetDay
